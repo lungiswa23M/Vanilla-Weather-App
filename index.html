@@ -4,6 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vanilla Weather App</title>
+    <style>
+        .weather-app-temperature-container {
+            display: flex;
+        }
+        .weather-app-icon{
+            width: 85px;
+            height: 85px;
+        }
+
+        .weather-forecast {
+            display: flex;
+            margin-top: 30px;
+            justify-content: space-around;
+        }
+
+        .weather-app-temperature{
+            font-size: 85px;
+            line-height: 85px;
+            font-weight: bolder;
+        }
+
+        .weather-forecast-date {
+            font-size: 16px;
+            color: rgba(39, 33, 66, 0.5);
+            text-align: center;
+            line-height: 20px;
+        }
+
+        .weather-forecast-icon {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .weather-forecast-temperatures {
+            text-align: center;
+            color: rgb(229, 51, 81);
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .weather-forecast-temperature {
+            padding: 0 10px;
+        }
+
+        footer{
+            border-top: 1px solid #f9f7fe;
+            padding: 30px 0 0 0;
+            font-size: 15px;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.5);
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -35,7 +89,54 @@
         <div class="weather-forecast-day">
         <div class="weather-forecast-date">Tue</div>
         <div class="weather-forecast-icon">🌥️</div>
-        <div class="weather-forecast-temperature">13°C 7°C</div>
+        <div class="weather-forecast-temperatures">
+            <strong>13°C</strong> 
+            </div>
+            <div class="weather-forecast-temperatures">7°C</div>
+        </div>
+        </div>
+        
+         <div class="weather-forecast">
+        <div class="weather-forecast-day">
+        <div class="weather-forecast-date">Wed</div>
+        <div class="weather-forecast-icon">🌥️</div>
+        <div class="weather-forecast-temperatures">
+            <strong>13°C</strong> 
+            </div>
+            <div class="weather-forecast-temperatures">7°C</div>
+        </div>
+        </div>
+
+        <div class="weather-forecast">
+        <div class="weather-forecast-day">
+        <div class="weather-forecast-date">Thur</div>
+        <div class="weather-forecast-icon">🌥️</div>
+        <div class="weather-forecast-temperatures">
+            <strong>13°C</strong> 
+            </div>
+            <div class="weather-forecast-temperatures">7°C</div>
+        </div>
+        </div>
+
+         <div class="weather-forecast">
+        <div class="weather-forecast-day">
+        <div class="weather-forecast-date">Thur</div>
+        <div class="weather-forecast-icon">🌥️</div>
+        <div class="weather-forecast-temperatures">
+            <strong>13°C</strong> 
+            </div>
+            <div class="weather-forecast-temperatures">7°C</div>
+        </div>
+        </div>
+
+         <div class="weather-forecast">
+        <div class="weather-forecast-day">
+        <div class="weather-forecast-date">Thur</div>
+        <div class="weather-forecast-icon">🌥️</div>
+        <div class="weather-forecast-temperatures">
+            <strong>13°C</strong> 
+            </div>
+            <div class="weather-forecast-temperatures">7°C</div>
         </div>
         </div>
     </main>
